@@ -142,6 +142,7 @@ task.spawn(function()
     local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/wyvernleaker/WyvernUI/main/UI.lua"))()
     local win = discord:Window("Wyvern 1.269.4 - redblues edition [GokuSSJ5FreakyButtSex]")
     local serv = win:Server("Wyvern", "http://www.roblox.com/asset/?id=6031075938")
+    if getgenv().WyvernConfig["Home"] then
     local main = serv:Channel("Home")
     main:Label("\nThank you for using Wyvern!\nThe #2 UGC Games Penetration Testing Tool! (mine is still better)")
     main:Label("Check out the other Discord channels to see our available tools!")
