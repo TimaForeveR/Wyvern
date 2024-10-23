@@ -472,8 +472,6 @@ task.spawn(
             )
 
             ugc:Seperator()
-            ugc:Label(
-                "\nUwU Sniper, Created by Redblue, this is like the good ol' days\ni miss xolo and mewt\nno prompt needed and basically instant \n"
             )
             local snipeid = 123456789
             ugc:Textbox(
