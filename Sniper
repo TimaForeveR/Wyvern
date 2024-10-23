@@ -4,7 +4,6 @@ getgenv().wyvern_version = "1.5.5"
 local LOAD_TIME = tick()
 
 local defaults = {
-    ["Change Log"] = true,
     ["Home"] = true,
     ["UGC Limiteds"] = true,
     ["Remotes"] = true,
